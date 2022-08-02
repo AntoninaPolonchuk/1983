@@ -2,13 +2,13 @@
 
 let house;
 
-$(document).ready(function () {
-    $("#Дом_2").hide();
-    $("#Дом_3").hide();
-    $("#Дом_4").hide();
-    $("#Дом_5").hide();
-    house = 1;
-});
+//$(document).ready(function () {
+//    $("#Дом_2").hide();
+//    $("#Дом_3").hide();
+//    $("#Дом_4").hide();
+//    $("#Дом_5").hide();
+//    house = 1;
+//});
 
 
     $("#Дом_1").click(function () {
