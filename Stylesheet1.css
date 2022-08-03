@@ -1,4 +1,22 @@
-﻿
+﻿.move{
+    position: relative;
+}
+.house {
+    position: absolute;
+    width: 60px;
+    height: 185px;
+}
+.house.Yl1 {
+    top: 200px;
+    left: 340px;
+}
+.house.Yl2 {
+    top: 230px;
+    left: 400px;
+}
+#Дом_1 {
+    transition: 0.2s;
+}
 #Дом_2 {
     display: none;
 }
@@ -15,6 +33,7 @@
 
 body {
     overflow: hidden;
+    height: 100vh;
     transition: 1s;
     animation: day 20s ease-in-out infinite;
 }
@@ -106,18 +125,18 @@ body {
 
 @keyframes leftwindows {
     0% {fill: #a7d4f5}
-    50% {fill: #a7d4f5}
+    59% {fill: #a7d4f5}
     60% {fill: #f4ee41}
-    70% {fill: #beb930}
+    75% {fill: #beb930}
     80% {fill: #666659}
     100% {fill: #a7d4f5}
 }
 
 @keyframes rigthwindows {
     0% {fill: #6b9fc7}
-    50% {fill: #6b9fc7}
+    59% {fill: #6b9fc7}
     60% {fill: #e0db3d}
-    70% {fill: #c3be35}
+    75% {fill: #c3be35}
     80% {fill: #55554c}
     100% {fill: #6b9fc7}
 }
@@ -295,4 +314,21 @@ body {
     80% {fill: #0074a9;}
     90% {fill: #0192d5;}
     100% {fill: #0192d5;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+use
+{
+    position: absolute;
+    bottom: 0;
 }

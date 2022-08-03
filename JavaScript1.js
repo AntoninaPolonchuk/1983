@@ -1,20 +1,15 @@
-﻿var $drag = $('.move').draggabilly({})
+﻿var $drag = $('.move').draggabilly({ handle: '.GroundMove' });
 
-let house;
+$("#Дом_1").click(function () {
 
-//$(document).ready(function () {
-//    $("#Дом_2").hide();
-//    $("#Дом_3").hide();
-//    $("#Дом_4").hide();
-//    $("#Дом_5").hide();
-//    house = 1;
-//});
+    $("#Дом_1").css("transform", "scale(0.5, 0.9)");
 
+    console.log($(this).parent().attr("class"))
 
-    $("#Дом_1").click(function () {
+    setTimeout(function () {
         $("#Дом_1").hide();
         $("#Дом_2").show();
-
+    } , 1000);
     });
 
 $("#Дом_2").click(function () {
