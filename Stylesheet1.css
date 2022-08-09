@@ -1,13 +1,92 @@
-﻿
+﻿﻿.move {
+    position: relative;
+}
+
+.house {
+    position: absolute;
+    width: 60px;
+    height: 185px;
+}
+
+    .house.Yl1a {
+        top: 200px;
+        left: 340px;
+    }
+
+    .house.Yl1b {
+        top: 160px;
+        left: 410px;
+    }
+
+    .house.Yl1c {
+        top: 120px;
+        left: 480px;
+    }
+
+    .house.Yl1d {
+        top: 80px;
+        left: 550px;
+    }
+
+    .house.Yl1e {
+        top: 45px;
+        left: 615px;
+    }
+
+    .house.Yl2a {
+        top: 230px;
+        left: 400px;
+    }
+
+    .house.Yl2b {
+        top: 195px;
+        left: 475px;
+    }
+
+    .house.Yl2c {
+        top: 155px;
+        left: 545px;
+    }
+
+    .house.Yl2d {
+        top: 115px;
+        left: 615px;
+    }
+
+    .house.Yl2e {
+        top: 80px;
+        left: 685px;
+    }
+
+    .house.Yl3a {
+        top: 250px;
+        left: 300px;
+    }
+
+    .house.Yl3b {
+        top: 260px;
+        left: 310px;
+    }
+
+
+
+
+#Дом_1 {
+    transition: 0.2s;
+}
+
 #Дом_2 {
     display: none;
 }
+
 #Дом_3 {
     display: none;
 }
+
 #Дом_4 {
     display: none;
 }
+
 #Дом_5 {
     display: none;
 }
@@ -90,7 +169,6 @@ body {
 .lake4 {
     animation: lakeda 20s ease-in-out infinite;
 }
-
 
 
 @keyframes day {
