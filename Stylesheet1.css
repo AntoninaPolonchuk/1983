@@ -6,6 +6,7 @@
     position: absolute;
     width: 60px;
     height: 185px;
+    pointer-events: none;
 }
 
     .house.Yl1a {
@@ -58,37 +59,82 @@
         left: 685px;
     }
 
+
     .house.Yl3a {
-        top: 250px;
-        left: 300px;
+        top: 290px;
+        left: 490px;
     }
 
     .house.Yl3b {
-        top: 260px;
-        left: 310px;
+        top: 255px;
+        left: 560px;
     }
+
+    .house.Yl3c {
+        top: 215px;
+        left: 630px;
+    }
+
+    .house.Yl3d {
+        top: 170px;
+        left: 705px;
+    }
+
+    .house.Yl3e {
+        top: 135px;
+        left: 780px;
+    }
+
+
+    .house.Yl4a {
+        top: 290px;
+        left: 625px;
+    }
+
+    .house.Yl4b {
+        top: 250px;
+        left: 700px;
+    }
+
+    .house.Yl4c {
+        top: 210px;
+        left: 775px;
+    }
+
+    .house.Yl4d {
+        top: 175px;
+        left: 850px;
+    }
+
+
 
 
 
 
 #Дом_1 {
     transition: 0.2s;
+    pointer-events: auto;
+    
 }
 
 #Дом_2 {
     display: none;
+    pointer-events: auto;
 }
 
 #Дом_3 {
     display: none;
+    pointer-events: auto;
 }
 
 #Дом_4 {
     display: none;
+    pointer-events: auto;
 }
 
 #Дом_5 {
     display: none;
+    pointer-events: auto;
 }
 
 
