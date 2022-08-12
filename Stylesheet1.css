@@ -54,14 +54,17 @@ right:0;
 }
 
 
-
-
     .house {
         position: absolute;
         width: 60px;
         height: 185px;
         pointer-events: none;
     }
+
+        .house:hover {
+            transform: scale(103%);
+            transition: 0.1s;
+        }
 
     .house.Yl1a {
         top: 200px;
@@ -160,6 +163,7 @@ right:0;
 
 
 
+
 #Дом_1 {
     transition: 0.2s;
     pointer-events: auto;
@@ -185,6 +189,12 @@ right:0;
     display: none;
     pointer-events: auto;
 }
+
+
+
+
+
+
 
 
 body {
