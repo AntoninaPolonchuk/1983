@@ -33,11 +33,12 @@ right:0;
 
 .buttons {
     display: grid;
-    position: relative;
+    position: fixed;
     bottom: -150px;
+    width: 100%;
     transition: 0.3s;
 }
-    .buttons button {
+    .buttonpart {
         height: 50px;
         width: 100%;
         background: #56C3E2;
