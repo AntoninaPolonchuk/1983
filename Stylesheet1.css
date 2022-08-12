@@ -1,4 +1,9 @@
-﻿﻿.move {
+﻿* {
+    margin: 0;
+    padding: 0;
+}﻿
+
+.move {
     position: relative;
     z-index: 100;
 }
@@ -43,8 +48,14 @@ right:0;
         width: 100%;
         background: #56C3E2;
     }
+        .buttonpart:hover {
+            transform: scale(103%);
+            transition: 0.1s;
+            background: #4FB0D0;
+        }
 
-.text {
+
+    .text {
     position: relative;
     font-size: 20px;
     font-weight: 700;
