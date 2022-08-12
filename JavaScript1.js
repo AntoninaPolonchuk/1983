@@ -3,13 +3,12 @@
 /*console.log($(this).parent().attr("class"))*/
 
 
-
 $('#Дом_1').click(function () {
 
     let getID = $(this).parent().attr("id");
     let check = false;
 
-    $('.buttons').css({ 'bottom': '-35px' }); 
+    $('.buttons').css({ 'bottom': '50px' }); 
     check = true;
 
     $('#Отмена').click(function () {
@@ -33,7 +32,7 @@ $('#Дом_2').click(function () {
     let getID = $(this).parent().attr("id");
     let check = false;
 
-    $('.buttons').css({ 'bottom': '-35px' });
+    $('.buttons').css({ 'bottom': '50px' });
     check = true;
 
     $('#Отмена').click(function () {
@@ -58,7 +57,7 @@ $('#Дом_3').click(function () {
     let getID = $(this).parent().attr("id");
     let check = false;
 
-    $('.buttons').css({ 'bottom': '-35px' });
+    $('.buttons').css({ 'bottom': '50px' });
     check = true;
 
     $('#Отмена').click(function () {
@@ -83,7 +82,7 @@ $('#Дом_4').click(function () {
     let getID = $(this).parent().attr("id");
     let check = false;
 
-    $('.buttons').css({ 'bottom': '-35px' });
+    $('.buttons').css({ 'bottom': '50px' });
     check = true;
 
     $('#Отмена').click(function () {
