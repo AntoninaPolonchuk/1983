@@ -10,13 +10,13 @@
 
 .money{
 position:fixed;
-top:5;
+top:5px;
 right:0;
 }
 
 .moneycount {
     position: fixed;
-    top: -35px;
+    top: 15px;
     right: 15px;
     font-style: italic;
     font-size: 46px;
@@ -28,9 +28,15 @@ right:0;
     .buttons {
         grid-template-columns: 25% 25% 25% 25%;
     }
+    .buttons2 {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .buttons {
+        grid-template-columns: 0% 50% 50% 0%;
+    }
     .buttons {
         grid-template-columns: 0% 50% 50% 0%;
     }
@@ -43,6 +49,15 @@ right:0;
     width: 100%;
     transition: 0.3s;
 }
+
+.buttons2 {
+    display: grid;
+    position: fixed;
+    bottom: -150px;
+    width: 100%;
+    transition: 0.3s;
+}
+
     .buttonpart {
         height: 50px;
         width: 100%;
@@ -52,6 +67,7 @@ right:0;
             transform: scale(103%);
             transition: 0.1s;
             background: #4FB0D0;
+
         }
 
 
@@ -76,6 +92,7 @@ right:0;
             transform: scale(103%);
             transition: 0.1s;
         }
+
 
     .house.Yl1a {
         top: 200px;
@@ -172,14 +189,33 @@ right:0;
         left: 850px;
     }
 
+.pole {
+    
+    animation: polea 20s ease-in-out infinite;
+}
+
+    
 
 
 
-#Дом_1 {
+#Поле {
+    transition: 0.2s;
+    pointer-events: auto;
+}
+
+#Дом_1a {
     transition: 0.2s;
     pointer-events: auto;
     
 }
+
+
+#Дом_1 {
+    display: none;
+    pointer-events: auto;
+}
+
+
 
 #Дом_2 {
     display: none;
@@ -200,11 +236,6 @@ right:0;
     display: none;
     pointer-events: auto;
 }
-
-
-
-
-
 
 
 
@@ -289,6 +320,16 @@ body {
 
 
 
+@keyframes polea {
+    0% {fill: #9cbd2a;}
+    20% {fill: #c1ea33;}
+    40% {fill: #9cbd2a;}
+    60% {fill: #9cbd2a;}
+    70% {fill: #91b027;}
+    80% {fill: #809a22;}
+    90% {fill: #9cbd2a;}
+    100% {fill: #9cbd2a;}
+}
 
 @keyframes day {
     0% {background: #bfe8f4;}
